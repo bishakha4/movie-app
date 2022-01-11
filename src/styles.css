@@ -1,0 +1,68 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .movie-name {
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .movie-name,
+  .movie-rating {
+    background-color: rgb(241, 253, 255);
+    border-radius: 5px;
+    margin-top: 8px;
+    width: 100%;
+  }
+  .movie-name:hover {
+    cursor: pointer;
+    width: 100%;
+    transition-duration: 2s;
+  }
+  
+  .movie-name:hover {
+    background-color: rgb(255, 251, 0);
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 21px;
+  }
+  
+  .movie-pic {
+    border-radius: 5%;
+    height: 500px;
+    width: 340px;
+    object-fit: cover;
+  }
+  .movie-pic:hover {
+    cursor: pointer;
+    border-radius: 15%;
+    height: 450px;
+    width: 340px;
+    transition-duration: 0.6s;
+  }
+  
+  .movie-rating {
+    font-size: 18px;
+    font-family: fantasy;
+  }
+  
+  .movie-summary {
+    margin-top: 0px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .movie-specs {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .movie-container {
+    width: 340px;
+  }
+  
